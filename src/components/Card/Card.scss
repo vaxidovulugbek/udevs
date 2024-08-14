@@ -1,0 +1,27 @@
+.field {
+    background-color: #EEF0F2;
+    &__title {
+        font-size: 14px !important;
+    }
+
+    &__card {
+        background-color: #fff;
+    }
+
+    &__card-close {
+        border: 1px solid #EEF0F2;
+    }
+
+    &__card-done {
+        background-color: #0E73F6;
+    }
+
+    &__card-border {
+        border-bottom: 1px solid #EEF0F2;
+    }
+
+    &__card-comment {
+        background-color: #0E73F6;
+        padding: 0 4px;
+    }
+}

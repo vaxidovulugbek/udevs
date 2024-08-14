@@ -1,0 +1,10 @@
+.sidebar {
+    border-right: 1px solid #E5E9EB;
+    &__logo {
+        border-bottom: 1px solid #E5E9EB;
+    }
+
+    &__user {
+        border-top: 1px solid #E5E9EB;
+    }
+}

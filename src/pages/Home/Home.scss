@@ -1,0 +1,16 @@
+.header {
+    border-bottom: 1px solid #E5E9EB;
+}
+
+
+.topbar {
+    padding: 10px 16px;
+
+    &__search {
+        border: 1px solid #E5E9EB;
+    }
+
+    &__info {
+        border: 1px solid #E5E9EB;
+    }
+}
