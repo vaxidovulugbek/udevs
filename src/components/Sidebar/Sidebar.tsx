@@ -1,9 +1,9 @@
 import React from "react";
-import { Button, Logo } from "../../ui";
-import logo from "../../assets/imgs/icons/logo.svg";
-import menu from "../../assets/imgs/icons/menuicon.svg";
-import settings from "../../assets/imgs/icons/settings.svg";
-import user from "../../assets/imgs/svg/user.svg";
+import { Button, Logo } from "ui";
+import logo from "assets/imgs/icons/logo.svg";
+import menu from "assets/imgs/icons/menuicon.svg";
+import settings from "assets/imgs/icons/settings.svg";
+import user from "assets/imgs/svg/user.svg";
 import "./Sidebar.scss";
 
 const Sidebar: React.FC = () => {

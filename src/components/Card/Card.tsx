@@ -1,15 +1,15 @@
 import React from "react";
-import { ListProps } from "../../types/interface";
-import { Button, Title } from "../../ui";
+import { ListProps } from "types/interface";
+import { Button, Title } from "ui";
 import cn from "classnames";
 import "./Card.scss";
-import alert from "../../assets/imgs/icons/alert-circle.svg";
-import click from "../../assets/imgs/icons/Frame 427318704.svg";
-import warn from "../../assets/imgs/icons/Frame 57840.svg";
-import watchLater from "../../assets/imgs/icons/watch_later.svg";
-import close from "../../assets/imgs/icons/Vector.svg";
-import done from "../../assets/imgs/icons/done.svg";
-import arrow from "../../assets/imgs/icons/keyboard_arrow_down.svg";
+import alert from "assets/imgs/icons/alert-circle.svg";
+import click from "assets/imgs/icons/Frame 427318704.svg";
+import warn from "assets/imgs/icons/Frame 57840.svg";
+import watchLater from "assets/imgs/icons/watch_later.svg";
+import close from "assets/imgs/icons/Vector.svg";
+import done from "assets/imgs/icons/done.svg";
+import arrow from "assets/imgs/icons/keyboard_arrow_down.svg";
 
 const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }) => {
 	return (

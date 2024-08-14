@@ -1,12 +1,12 @@
 import React from "react";
-import { Text } from "../../ui";
-import Sidebar from "../../components/Sidebar/Sidebar";
+import { Text } from "ui";
+import Sidebar from "components/Sidebar/Sidebar";
 import "./Home.scss";
-import { Input } from "../../ui/Input/Input";
-import search from "../../assets/imgs/icons/search.svg";
-import shoplist from "../../assets/imgs/icons/shopping-list.svg";
-import chevronDown from "../../assets/imgs/icons/Chevron down.svg";
-import time from "../../assets/imgs/icons/time.svg";
+import { Input } from "ui/Input/Input";
+import search from "assets/imgs/icons/search.svg";
+import shoplist from "assets/imgs/icons/shopping-list.svg";
+import chevronDown from "assets/imgs/icons/Chevron down.svg";
+import time from "assets/imgs/icons/time.svg";
 import Card from "components/Card/Card";
 
 const Home: React.FC = () => {
