@@ -62,7 +62,7 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 									{item?.doneBtn && (
 										<div className="px-2 pb-2">
 											<Button
-												className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-doneblue w-full text-[#0E73F6]"
+												className="text-sm min-h-9 rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-doneblue w-full text-[#0E73F6]"
 												text="Готово"
 												children={
 													<img
@@ -77,7 +77,7 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 									{item?.finishBtn && (
 										<div className="px-2 pb-2">
 											<Button
-												className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-doneblue w-full text-[#0E73F6]"
+												className="text-sm min-h-9 mt-2 rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-doneblue w-full text-[#0E73F6]"
 												text="Завершить"
 											/>
 										</div>
@@ -85,14 +85,14 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 									{item?.decision && (
 										<div className="flex items-center gap-2 p-2">
 											<Button
-												className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-close w-1/2 text-[#F76659]"
+												className="rounded-md min-h-9 text-sm flex items-center justify-center flex-row-reverse py-1 px-2 field__card-close w-1/2 text-[#F76659]"
 												text="Отменить"
 												children={
 													<img className="me-2" src={close} alt="close" />
 												}
 											/>
 											<Button
-												className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-done w-1/2 text-[#fff]"
+												className="rounded-md min-h-9 text-sm flex items-center justify-center flex-row-reverse py-1 px-2 field__card-done w-1/2 text-[#fff]"
 												text="Принять"
 												children={
 													<img
