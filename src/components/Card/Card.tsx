@@ -15,7 +15,7 @@ import direction from "assets/imgs/icons/directions_walk.svg";
 
 const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }) => {
 	return (
-		<div className="field rounded-md overflow-hidden w-[326px]">
+		<div className="field rounded-md overflow-hidden w-[326px] h-fit">
 			<Title
 				className={cn("mb-2 capitalize p-3 field__title text-white")}
 				weight="medium"
@@ -42,26 +42,6 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 								</div>
 								<div className="p-2 field__card-border">
 									{item?.children}
-									{/* <p className="text-sm font-medium text-[#000]">3 x Пепси 0,5</p>
-									<div className="flex my-3">
-										<span className="text-sm font-medium text-[#000] me-1">
-											1 x
-										</span>
-										<div className="text-sm font-medium text-[#000]">
-											<p className="text-sm font-medium text-[#000]">
-												Гамбургер
-											</p>
-											<p className="text-xs font-normal text-[#48535B]">
-												С сыром
-											</p>
-											<p className="text-xs font-normal text-[#48535B]">
-												Без лука
-											</p>
-										</div>
-									</div>
-									<p className="text-sm font-medium text-[#000]">
-										2 x Лаваш мясной Standart острый
-									</p> */}
 									<div className="flex items-center text-xs font-medium text-[#6E8BB7] justify-end mt-2">
 										<img className="me-1" src={watchLater} alt="watchLater" />
 										15:22
