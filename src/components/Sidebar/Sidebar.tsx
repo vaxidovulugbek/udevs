@@ -8,7 +8,7 @@ import "./Sidebar.scss";
 
 const Sidebar: React.FC = () => {
 	return (
-		<section className="sidebar flex flex-col justify-between h-svh items-center">
+		<section className="sidebar flex flex-col justify-between h-auto items-center">
 			<div className="flex flex-col items-center">
 				<Logo
 					className="sidebar__logo w-[56px] h-[56px] p-[12px] mb-2"

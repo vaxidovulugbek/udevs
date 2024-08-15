@@ -8,6 +8,8 @@ export interface Field {
 	preparationComment?: boolean;
 	doneBtn?: boolean;
 	decision?: boolean;
+	priceDone?: boolean;
+	finishBtn?: boolean;
 }
 
 export interface ListProps {

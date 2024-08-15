@@ -96,14 +96,18 @@ const Home: React.FC = () => {
 								{
 									id: "321545",
 									url: "/",
+									priceDone: true,
 								},
 								{
 									id: "321545",
 									url: "/",
+									priceDone: true,
 								},
 								{
 									id: "321545",
 									url: "/",
+									priceDone: true,
+									finishBtn: true,
 								},
 							]}
 						/>
@@ -114,6 +118,7 @@ const Home: React.FC = () => {
 								{
 									id: "321545",
 									url: "/",
+									priceDone: true,
 								},
 							]}
 						/>

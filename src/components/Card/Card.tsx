@@ -11,6 +11,7 @@ import close from "assets/imgs/icons/Vector.svg";
 import done from "assets/imgs/icons/done.svg";
 import arrow from "assets/imgs/icons/keyboard_arrow_down.svg";
 import doneBlue from "assets/imgs/icons/doneBLUE.svg";
+import direction from "assets/imgs/icons/directions_walk.svg";
 
 const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }) => {
 	return (
@@ -34,8 +35,9 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 									</p>
 									<div className="flex items-center font-medium text-xs text-[#6E8BB7] gap-2">
 										<span>300 560 сум</span>
-										<img src={click} alt="" />
+										{item?.priceDone ? null : <img src={click} alt="" />}
 										<img src={warn} alt="" />
+										{item?.priceDone && <img src={direction} alt="" />}
 									</div>
 								</div>
 								<div className="p-2 field__card-border">
@@ -88,6 +90,14 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 														alt="done"
 													/>
 												}
+											/>
+										</div>
+									)}
+									{item?.finishBtn && (
+										<div className="px-2 pb-2">
+											<Button
+												className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-doneblue w-full text-[#0E73F6]"
+												text="Завершить"
 											/>
 										</div>
 									)}
