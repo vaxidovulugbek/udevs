@@ -10,6 +10,7 @@ export interface Field {
 	decision?: boolean;
 	priceDone?: boolean;
 	finishBtn?: boolean;
+	children?: any;
 }
 
 export interface ListProps {

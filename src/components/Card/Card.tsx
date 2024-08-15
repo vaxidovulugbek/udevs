@@ -41,7 +41,8 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 									</div>
 								</div>
 								<div className="p-2 field__card-border">
-									<p className="text-sm font-medium text-[#000]">3 x Пепси 0,5</p>
+									{item?.children}
+									{/* <p className="text-sm font-medium text-[#000]">3 x Пепси 0,5</p>
 									<div className="flex my-3">
 										<span className="text-sm font-medium text-[#000] me-1">
 											1 x
@@ -60,7 +61,7 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 									</div>
 									<p className="text-sm font-medium text-[#000]">
 										2 x Лаваш мясной Standart острый
-									</p>
+									</p> */}
 									<div className="flex items-center text-xs font-medium text-[#6E8BB7] justify-end mt-2">
 										<img className="me-1" src={watchLater} alt="watchLater" />
 										15:22

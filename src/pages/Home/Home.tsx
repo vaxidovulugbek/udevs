@@ -51,21 +51,125 @@ const Home: React.FC = () => {
 									id: "321545",
 									url: "/",
 									decision: true,
+									children: (
+										<div>
+											<p className="text-sm font-medium text-[#000]">
+												3 x Пепси 0,5
+											</p>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Гамбургер
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+										</div>
+									),
 								},
 								{
 									id: "321545",
 									url: "/",
 									decision: true,
+									children: (
+										<div>
+											<p className="text-sm font-medium text-[#000]">
+												3 x Пепси 0,5
+											</p>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Гамбургер
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+										</div>
+									),
 								},
 								{
 									id: "321545",
 									url: "/",
 									decision: true,
+									children: (
+										<div>
+											<p className="text-sm font-medium text-[#000]">
+												3 x Пепси 0,5
+											</p>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Гамбургер
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+										</div>
+									),
 								},
 								{
 									id: "321545",
 									url: "/",
 									decision: true,
+									children: (
+										<div>
+											<p className="text-sm font-medium text-[#000]">
+												3 x Пепси 0,5
+											</p>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Гамбургер
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+										</div>
+									),
 								},
 							]}
 						/>
@@ -78,14 +182,80 @@ const Home: React.FC = () => {
 									url: "/",
 									preparationComment: true,
 									doneBtn: true,
+									children: (
+										<div>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Гамбургер
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+										</div>
+									),
 								},
 								{
 									id: "321545",
 									url: "/",
+									children: (
+										<div>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Big Gamburger
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+											<p className="text-sm font-medium text-[#000]">
+												3 x Пепси 0,5
+											</p>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+										</div>
+									),
 								},
 								{
 									id: "321545",
 									url: "/",
+									children: (
+										<div>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Гамбургер
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+										</div>
+									),
 								},
 							]}
 						/>
@@ -97,17 +267,85 @@ const Home: React.FC = () => {
 									id: "321545",
 									url: "/",
 									priceDone: true,
+									children: (
+										<div>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+										</div>
+									),
 								},
 								{
 									id: "321545",
 									url: "/",
 									priceDone: true,
+									children: (
+										<div>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Big Gamburger
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+											<p className="text-sm font-medium text-[#000]">
+												3 x Пепси 0,5
+											</p>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Дабл Бургер
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+										</div>
+									),
+								},
+								{
+									id: "321545",
+									url: "/",
+									priceDone: true,
+									children: (
+										<div>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+										</div>
+									),
 								},
 								{
 									id: "321545",
 									url: "/",
 									priceDone: true,
 									finishBtn: true,
+									children: (
+										<div>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+										</div>
+									),
 								},
 							]}
 						/>
@@ -119,6 +357,48 @@ const Home: React.FC = () => {
 									id: "321545",
 									url: "/",
 									priceDone: true,
+									children: (
+										<div>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Big Gamburger
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+											<p className="text-sm font-medium text-[#000]">
+												3 x Пепси 0,5
+											</p>
+											<p className="text-sm font-medium text-[#000]">
+												2 x Лаваш мясной Standart острый
+											</p>
+											<div className="flex my-3">
+												<span className="text-sm font-medium text-[#000] me-1">
+													1 x
+												</span>
+												<div className="text-sm font-medium text-[#000]">
+													<p className="text-sm font-medium text-[#000]">
+														Дабл Бургер
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														С сыром
+													</p>
+													<p className="text-xs font-normal text-[#48535B]">
+														Без лука
+													</p>
+												</div>
+											</div>
+										</div>
+									),
 								},
 							]}
 						/>
