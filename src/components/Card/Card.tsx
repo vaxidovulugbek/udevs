@@ -10,6 +10,7 @@ import watchLater from "assets/imgs/icons/watch_later.svg";
 import close from "assets/imgs/icons/Vector.svg";
 import done from "assets/imgs/icons/done.svg";
 import arrow from "assets/imgs/icons/keyboard_arrow_down.svg";
+import doneBlue from "assets/imgs/icons/doneBLUE.svg";
 
 const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }) => {
 	return (
@@ -28,7 +29,8 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 							<li key={index} className="m-2 field__card">
 								<div className="flex field__card-border items-center justify-between p-3">
 									<p className="flex items-center text-lg font-bold">
-										ID: 321545 <img className="ms-1" src={alert} alt="alert" />{" "}
+										ID: {item?.id}{" "}
+										<img className="ms-1" src={alert} alt="alert" />{" "}
 									</p>
 									<div className="flex items-center font-medium text-xs text-[#6E8BB7] gap-2">
 										<span>300 560 сум</span>
@@ -62,9 +64,9 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 										15:22
 									</div>
 								</div>
-								<div className="p-2">
+								<div>
 									{item?.preparationComment && (
-										<div className="flex justify-between items-center mb-3">
+										<div className="flex justify-between items-center mb-3 p-2">
 											<p className="text-sm font-medium text-[#6E8BB7] flex items-center">
 												Коментарии(1){" "}
 												<span className="field__card-comment rounded-2xl text-xs text-[#fff] flex items-center justify-center ms-1">
@@ -74,26 +76,43 @@ const Card: React.FC<ListProps> = ({ fields, title, className = "", titleColor }
 											<img src={arrow} alt="arrow" />
 										</div>
 									)}
-									<div className="flex items-center gap-2">
-										<Button
-											className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-close w-1/2 text-[#F76659]"
-											text="Отменить"
-											children={
-												<img className="me-2" src={close} alt="close" />
-											}
-										/>
-										<Button
-											className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-done w-1/2 text-[#fff]"
-											text="Принять"
-											children={
-												<img
-													className="relative right-2"
-													src={done}
-													alt="close"
-												/>
-											}
-										/>
-									</div>
+									{item?.doneBtn && (
+										<div className="px-2 pb-2">
+											<Button
+												className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-doneblue w-full text-[#0E73F6]"
+												text="Готово"
+												children={
+													<img
+														className="me-2"
+														src={doneBlue}
+														alt="done"
+													/>
+												}
+											/>
+										</div>
+									)}
+									{item?.decision && (
+										<div className="flex items-center gap-2 p-2">
+											<Button
+												className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-close w-1/2 text-[#F76659]"
+												text="Отменить"
+												children={
+													<img className="me-2" src={close} alt="close" />
+												}
+											/>
+											<Button
+												className="rounded-md flex items-center justify-center flex-row-reverse py-1 px-2 field__card-done w-1/2 text-[#fff]"
+												text="Принять"
+												children={
+													<img
+														className="relative right-2"
+														src={done}
+														alt="close"
+													/>
+												}
+											/>
+										</div>
+									)}
 								</div>
 							</li>
 						);

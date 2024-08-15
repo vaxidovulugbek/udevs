@@ -48,16 +48,24 @@ const Home: React.FC = () => {
 							titleColor="#0E73F6"
 							fields={[
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
+									decision: true,
 								},
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
+									decision: true,
 								},
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
+									decision: true,
+								},
+								{
+									id: "321545",
+									url: "/",
+									decision: true,
 								},
 							]}
 						/>
@@ -66,16 +74,17 @@ const Home: React.FC = () => {
 							titleColor="#F8C51B"
 							fields={[
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
 									preparationComment: true,
+									doneBtn: true,
 								},
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
 								},
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
 								},
 							]}
@@ -85,15 +94,15 @@ const Home: React.FC = () => {
 							titleColor="#22C348"
 							fields={[
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
 								},
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
 								},
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
 								},
 							]}
@@ -103,7 +112,7 @@ const Home: React.FC = () => {
 							titleColor="#1AC19D"
 							fields={[
 								{
-									name: "Features",
+									id: "321545",
 									url: "/",
 								},
 							]}

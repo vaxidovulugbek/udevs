@@ -3,9 +3,11 @@ export interface AppProps {
 }
 
 export interface Field {
-	name: string;
+	id?: string;
 	url?: string;
 	preparationComment?: boolean;
+	doneBtn?: boolean;
+	decision?: boolean;
 }
 
 export interface ListProps {
